@@ -61,6 +61,7 @@ const loading = ref(false);
 </template>
 
 <style scoped>
+
 h1 {
   font-size: 1rem;
   margin-bottom: 20px;
@@ -72,11 +73,13 @@ h2 {
 }
 
 img {
-  width: 400px;
+  width:100%;
+  max-width: 400px;
   height: auto;
 }
 
 .content {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
