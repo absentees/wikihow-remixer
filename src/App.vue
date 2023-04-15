@@ -35,7 +35,7 @@ const loading = ref(false);
 
 <template>
   <div>
-    <h1>Wikihow remixer</h1>
+    <h1>Wikihow remixer by <a href="https://absentees.co">absentees</a></h1>
     <div class="content">
       <!-- Show articleTitle or placeholder loading text -->
       <h2 v-if="loading">Loading...</h2>
