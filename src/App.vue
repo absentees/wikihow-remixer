@@ -39,7 +39,7 @@ const loading = ref(false);
     <div class="content">
       <!-- Show articleTitle or placeholder loading text -->
       <h2 v-if="loading">Loading...</h2>
-      <h2 v-else>{{ articleTitle }}</h2>
+      <h2 v-else>How to {{ articleTitle }}</h2>
 
       <!-- Show image if it exists else show a grey rectangle -->
       <img v-if="articleImage.imageURL" :src="articleImage.imageURL" alt="">
